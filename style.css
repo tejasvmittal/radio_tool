@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container-fluid, .row.flex-nowrap {
+    height: 100vh;
+}
+
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+
+.table-container {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+table{
+    margin: 0;
+}
+
+thead th{
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 2;
+}
+
+.tag-btn.active {
+    background-color: #0d6efd;
+    color: white;
+    border-color: #0d6efd;
+}
+
+.car-btn.active {
+    background-color: #198754;
+    color: white;
+    border-color: #198754; }
