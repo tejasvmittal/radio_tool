@@ -6,7 +6,7 @@ const pastel_colors = [
   "#F5F5DC", "#D8BFD8", "#FFE4E1", "#FFF0F5", "#E0B0FF"
 ];
 
-const url = 'https://c87e-136-52-89-240.ngrok-free.app';
+const url = 'https://26c0-136-52-89-240.ngrok-free.app';
 
 let selectedCars = new Set();
 let selectedTags = new Set();
